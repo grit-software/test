@@ -1,0 +1,15 @@
+<rules-extensions>
+    <management-agents>
+        
+        <ActiveDirectory-ma>
+            <students>OU=ESTUDIANTES,DC=unad,DC=edu,DC=co</students>
+	    <graduates>OU=EGRESADOS,DC=unad,DC=edu,DC=co</graduates>
+            <DisableUsers>OU=Disabled Account,DC=unad,DC=edu,DC=co</DisableUsers>
+	    <SinVinculacion>OU=N/A,OU=JCM,DC=unad,DC=edu,DC=co</SinVinculacion>
+            <Externos>OU=EXTERNOS,DC=unad,DC=edu,DC=co</Externos>
+       </ActiveDirectory-ma>
+
+      
+    </management-agents>
+</rules-extensions>
+
